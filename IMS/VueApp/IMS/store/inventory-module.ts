@@ -1,5 +1,5 @@
 import { inventoryService } from "../services/inventorservice";
-import { mapState, mapActions } from "vuex";
+import { router } from "../helpers";
 
 const state = {
   inventories: {},
@@ -12,6 +12,18 @@ const actions = {
     inventoryService.getInventoriesByUserId(id).then(
       (inventoryList) => commit("getAllSuccess", inventoryList),
       (error) => commit("getAllFailure", error)
+    );
+  },
+
+  createInventoryItem({ commit }, inventoryItem) {
+    inventoryService.create(inventoryItem).then(
+      (inventoryItem) => {
+        commit("registerSuccess", inventoryItem);
+        router.push("/inventory/createInventory");
+      },
+      (error) => {
+        commit("registerFailure", error);
+      }
     );
   },
 
@@ -33,6 +45,12 @@ const mutations = {
     state.inventories = { items: inventoryList };
   },
   getAllFailure(state, error) {
+    state.inventories = { error };
+  },
+  registerSuccess(state, inventoryItem) {
+    state.inventories = inventoryItem;
+  },
+  registerFailure(state, error) {
     state.inventories = { error };
   },
   /*deleteRequest(state, id) {

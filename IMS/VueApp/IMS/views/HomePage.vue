@@ -1,6 +1,7 @@
 <template>
     <div>
-        <router-link :to="{ name: 'create' }" class="button is-link" style="margin:10px;">Create User</router-link>
+        <router-link :to="{ name: 'create' }" class="button is-link" style="margin:10px;" v-if="account.user.role=='Admin'">Create User</router-link>
+        <router-link :to="{ name: 'createInventory' }" class="button is-link" style="margin:10px;">create Inventory</router-link>
         <h1 class="title">Available Users</h1>
         <em v-if="users.loading">Loading users...</em>
         <span v-if="users.error" class="has-text-danger">ERROR: {{users.error}}</span>
@@ -14,8 +15,8 @@
                     <th>Email</th>
                     <th>Role</th>
                     <th>Status</th>
-                    <th></th>
-                    <th></th>
+                    <th v-if="account.user.role=='Admin'"></th>
+                    <th v-if="account.user.role=='Admin'"></th>
                 </tr>
             </thead>
             <tbody >
@@ -29,10 +30,10 @@
                         <span v-if="user.isEnabled" style="color:green;">Enabled</span>
                         <span v-else style="color:#c2c2c2;">Disabled</span>
                     </td>
-                    <td>
+                    <td v-if="account.user.role=='Admin'">
                         <a @click="editUser(user.id)" class="button is-info">Edit</a>
                     </td>
-                    <td>
+                    <td v-if="account.user.role=='Admin'"> 
                         <span v-if="user.deleting"><em>Deleting...</em></span>
                         <span v-else-if="user.deleteError" class="has-text-danger">ERROR: {{user.deleteError}}</span>
                         <span v-else><a @click="deleteUser(user.id)" class="button is-danger">Delete</a></span>
@@ -50,7 +51,8 @@ import { router } from "../helpers";
 export default {
     computed: {
         ...mapState({
-            users: state => state.users.all
+            users: state => state.users.all,
+            account: state => state.account,
         })
     },
     created () {

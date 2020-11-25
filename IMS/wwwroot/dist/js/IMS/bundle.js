@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "ed6b6e23c9f597129bf9";
+/******/ 	var hotCurrentHash = "e6db220aab79c23d6f6d";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1207,6 +1207,93 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./VueApp/IMS/Views/inventory/CreateInventory.vue":
+/*!********************************************************!*\
+  !*** ./VueApp/IMS/Views/inventory/CreateInventory.vue ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateInventory.vue?vue&type=template&id=2a15f4e6& */ "./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6&");
+/* harmony import */ var _CreateInventory_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateInventory.vue?vue&type=script&lang=js& */ "./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CreateInventory_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (true) {
+  var api = __webpack_require__(/*! ./node_modules/vue-hot-reload-api/dist/index.js */ "./node_modules/vue-hot-reload-api/dist/index.js")
+  api.install(__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js"))
+  if (api.compatible) {
+    module.hot.accept()
+    if (!api.isRecorded('2a15f4e6')) {
+      api.createRecord('2a15f4e6', component.options)
+    } else {
+      api.reload('2a15f4e6', component.options)
+    }
+    module.hot.accept(/*! ./CreateInventory.vue?vue&type=template&id=2a15f4e6& */ "./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6&", function(__WEBPACK_OUTDATED_DEPENDENCIES__) { /* harmony import */ _CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CreateInventory.vue?vue&type=template&id=2a15f4e6& */ "./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6&");
+(function () {
+      api.rerender('2a15f4e6', {
+        render: _CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__["render"],
+        staticRenderFns: _CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]
+      })
+    })(__WEBPACK_OUTDATED_DEPENDENCIES__); }.bind(this))
+  }
+}
+component.options.__file = "VueApp/IMS/Views/inventory/CreateInventory.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** ./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateInventory_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib!../../../../node_modules/vue-loader/lib??vue-loader-options!./CreateInventory.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateInventory_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6&":
+/*!***************************************************************************************!*\
+  !*** ./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6& ***!
+  \***************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CreateInventory.vue?vue&type=template&id=2a15f4e6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CreateInventory_vue_vue_type_template_id_2a15f4e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./VueApp/IMS/Views/users/CreateUser.vue":
 /*!***********************************************!*\
   !*** ./VueApp/IMS/Views/users/CreateUser.vue ***!
@@ -1475,6 +1562,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _IMS_Views_users_CreateUser_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/IMS/Views/users/CreateUser.vue */ "./VueApp/IMS/Views/users/CreateUser.vue");
 /* harmony import */ var _IMS_Views_users_EditUser_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/IMS/Views/users/EditUser.vue */ "./VueApp/IMS/Views/users/EditUser.vue");
 /* harmony import */ var _IMS_Views_InventoryListPage_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/IMS/Views/InventoryListPage.vue */ "./VueApp/IMS/Views/InventoryListPage.vue");
+/* harmony import */ var _IMS_Views_inventory_CreateInventory_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/IMS/Views/inventory/CreateInventory.vue */ "./VueApp/IMS/Views/inventory/CreateInventory.vue");
+
 
 
 
@@ -1492,6 +1581,11 @@ var routes = [
         name: "editUser",
         path: "/" + routePrefix + "/editUser/:id",
         component: _IMS_Views_users_EditUser_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    },
+    {
+        name: "createInventory",
+        path: "/" + routePrefix + "/createInventory",
+        component: _IMS_Views_inventory_CreateInventory_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
     },
     {
         name: "create",
@@ -1542,6 +1636,17 @@ router.beforeEach(function (to, from, next) {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(Promise) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "inventoryService", function() { return inventoryService; });
 /* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../helpers */ "./VueApp/IMS/helpers/index.ts");
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -1580,6 +1685,25 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 };
 
 var apiUrl = "http://localhost:44202/api";
+function create(inventory) {
+    return __awaiter(this, void 0, void 0, function () {
+        var requestOptions, response;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    requestOptions = {
+                        method: "POST",
+                        headers: __assign(__assign({}, Object(_helpers__WEBPACK_IMPORTED_MODULE_0__["authHeader"])()), { "Content-Type": "application/json" }),
+                        body: JSON.stringify(inventory),
+                    };
+                    return [4 /*yield*/, fetch(apiUrl + "/inventories", requestOptions)];
+                case 1:
+                    response = _a.sent();
+                    return [2 /*return*/, handleResponse(response)];
+            }
+        });
+    });
+}
 function getInventoriesByUserId(id) {
     return __awaiter(this, void 0, void 0, function () {
         var requestOptions, response;
@@ -1610,6 +1734,7 @@ function handleResponse(response) {
 }
 var inventoryService = {
     getInventoriesByUserId: getInventoriesByUserId,
+    create: create,
 };
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! es6-promise-promise */ "./node_modules/es6-promise-promise/index.js")))
@@ -1852,7 +1977,7 @@ var actions = {
         _services_userservice__WEBPACK_IMPORTED_MODULE_0__["userService"].login(email, password).then(function (user) {
             commit("loginSuccess", user);
             console.log(user);
-            if (user.role === "Admin") {
+            if (user.role === "Admin" || user.role === "Manager") {
                 _helpers__WEBPACK_IMPORTED_MODULE_1__["router"].push("/inventory/home");
             }
             else {
@@ -2018,6 +2143,8 @@ vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vuex__WEBPACK_IMPORTED_MODULE_1_
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "inventories", function() { return inventories; });
 /* harmony import */ var _services_inventorservice__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../services/inventorservice */ "./VueApp/IMS/services/inventorservice.ts");
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers */ "./VueApp/IMS/helpers/index.ts");
+
 
 var state = {
     inventories: {},
@@ -2028,6 +2155,15 @@ var actions = {
         commit("getAllInventoriesById");
         _services_inventorservice__WEBPACK_IMPORTED_MODULE_0__["inventoryService"].getInventoriesByUserId(id).then(function (inventoryList) { return commit("getAllSuccess", inventoryList); }, function (error) { return commit("getAllFailure", error); });
     },
+    createInventoryItem: function (_a, inventoryItem) {
+        var commit = _a.commit;
+        _services_inventorservice__WEBPACK_IMPORTED_MODULE_0__["inventoryService"].create(inventoryItem).then(function (inventoryItem) {
+            commit("registerSuccess", inventoryItem);
+            _helpers__WEBPACK_IMPORTED_MODULE_1__["router"].push("/inventory/createInventory");
+        }, function (error) {
+            commit("registerFailure", error);
+        });
+    },
 };
 var mutations = {
     getAllInventoriesById: function (state) {
@@ -2037,6 +2173,12 @@ var mutations = {
         state.inventories = { items: inventoryList };
     },
     getAllFailure: function (state, error) {
+        state.inventories = { error: error };
+    },
+    registerSuccess: function (state, inventoryItem) {
+        state.inventories = inventoryItem;
+    },
+    registerFailure: function (state, error) {
         state.inventories = { error: error };
     },
 };
@@ -3971,11 +4113,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   computed: { ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])({
-      users: state => state.users.all
+      users: state => state.users.all,
+      account: state => state.account
     })
   },
 
@@ -4038,7 +4182,6 @@ __webpack_require__.r(__webpack_exports__);
   },
 
   created() {
-    console.log(this.account.user);
     this.getAllInventories(this.account.user.id);
   },
 
@@ -4133,6 +4276,118 @@ __webpack_require__.r(__webpack_exports__);
           email,
           password
         });
+      }
+    }
+
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js?!./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data() {
+    return {
+      inventory: {
+        inventoryName: '',
+        quantity: 0,
+        userId: 0
+      },
+      submitted: false
+    };
+  },
+
+  computed: { ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])({
+      users: state => state.users.all
+    })
+  },
+
+  created() {
+    this.getAllUsers();
+  },
+
+  methods: { ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])('users', {
+      getAllUsers: 'getAll'
+    }),
+    ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])('inventories', ['createInventoryItem']),
+
+    handleSubmit(e) {
+      this.submitted = true;
+      const {
+        inventoryName,
+        quantity,
+        userId
+      } = this.inventory;
+      console.log(this.inventory);
+
+      if (inventoryName && quantity && userId) {
+        let temp = {
+          userId: this.inventory.userId,
+          inventoryName: this.inventory.inventoryName,
+          quantity: parseInt(this.inventory.quantity)
+        };
+        this.createInventoryItem(temp);
+        this.inventory = {
+          inventoryName: '',
+          quantity: 0,
+          userId: 0
+        };
       }
     }
 
@@ -6505,14 +6760,26 @@ var render = function() {
   return _c(
     "div",
     [
+      _vm.account.user.role == "Admin"
+        ? _c(
+            "router-link",
+            {
+              staticClass: "button is-link",
+              staticStyle: { margin: "10px" },
+              attrs: { to: { name: "create" } }
+            },
+            [_vm._v("Create User")]
+          )
+        : _vm._e(),
+      _vm._v(" "),
       _c(
         "router-link",
         {
           staticClass: "button is-link",
           staticStyle: { margin: "10px" },
-          attrs: { to: { name: "create" } }
+          attrs: { to: { name: "createInventory" } }
         },
-        [_vm._v("Create User")]
+        [_vm._v("create Inventory")]
       ),
       _vm._v(" "),
       _c("h1", { staticClass: "title" }, [_vm._v("Available Users")]),
@@ -6527,7 +6794,25 @@ var render = function() {
       _vm._v(" "),
       _vm.users.items
         ? _c("table", { staticClass: "table is-fullwidth" }, [
-            _vm._m(0),
+            _c("thead", [
+              _c("tr", [
+                _c("th", [_vm._v("User Id")]),
+                _vm._v(" "),
+                _c("th", [_vm._v("First Name")]),
+                _vm._v(" "),
+                _c("th", [_vm._v("Last Name")]),
+                _vm._v(" "),
+                _c("th", [_vm._v("Email")]),
+                _vm._v(" "),
+                _c("th", [_vm._v("Role")]),
+                _vm._v(" "),
+                _c("th", [_vm._v("Status")]),
+                _vm._v(" "),
+                _vm.account.user.role == "Admin" ? _c("th") : _vm._e(),
+                _vm._v(" "),
+                _vm.account.user.role == "Admin" ? _c("th") : _vm._e()
+              ])
+            ]),
             _vm._v(" "),
             _c(
               "tbody",
@@ -6553,43 +6838,47 @@ var render = function() {
                         ])
                   ]),
                   _vm._v(" "),
-                  _c("td", [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "button is-info",
-                        on: {
-                          click: function($event) {
-                            return _vm.editUser(user.id)
-                          }
-                        }
-                      },
-                      [_vm._v("Edit")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("td", [
-                    user.deleting
-                      ? _c("span", [_c("em", [_vm._v("Deleting...")])])
-                      : user.deleteError
-                      ? _c("span", { staticClass: "has-text-danger" }, [
-                          _vm._v("ERROR: " + _vm._s(user.deleteError))
-                        ])
-                      : _c("span", [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "button is-danger",
-                              on: {
-                                click: function($event) {
-                                  return _vm.deleteUser(user.id)
-                                }
+                  _vm.account.user.role == "Admin"
+                    ? _c("td", [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "button is-info",
+                            on: {
+                              click: function($event) {
+                                return _vm.editUser(user.id)
                               }
-                            },
-                            [_vm._v("Delete")]
-                          )
-                        ])
-                  ])
+                            }
+                          },
+                          [_vm._v("Edit")]
+                        )
+                      ])
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _vm.account.user.role == "Admin"
+                    ? _c("td", [
+                        user.deleting
+                          ? _c("span", [_c("em", [_vm._v("Deleting...")])])
+                          : user.deleteError
+                          ? _c("span", { staticClass: "has-text-danger" }, [
+                              _vm._v("ERROR: " + _vm._s(user.deleteError))
+                            ])
+                          : _c("span", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "button is-danger",
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.deleteUser(user.id)
+                                    }
+                                  }
+                                },
+                                [_vm._v("Delete")]
+                              )
+                            ])
+                      ])
+                    : _vm._e()
                 ])
               }),
               0
@@ -6600,32 +6889,7 @@ var render = function() {
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("thead", [
-      _c("tr", [
-        _c("th", [_vm._v("User Id")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("First Name")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Last Name")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Email")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Role")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Status")]),
-        _vm._v(" "),
-        _c("th"),
-        _vm._v(" "),
-        _c("th")
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -6866,6 +7130,250 @@ var staticRenderFns = [
           "button",
           { staticClass: "button is-success", attrs: { type: "submit" } },
           [_vm._v("\n        Login\n      ")]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./VueApp/IMS/Views/inventory/CreateInventory.vue?vue&type=template&id=2a15f4e6& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "columns is-mobile is-centered" }, [
+    _c(
+      "div",
+      { staticClass: "column is-4" },
+      [
+        _c("h1", { staticClass: "title" }, [
+          _vm._v("\n    Create Inventory Item\n  ")
+        ]),
+        _vm._v(" "),
+        _c(
+          "form",
+          {
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.handleSubmit($event)
+              }
+            }
+          },
+          [
+            _c("div", { staticClass: "field" }, [
+              _c(
+                "p",
+                { staticClass: "control has-icons-left has-icons-right" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.inventory.inventoryName,
+                        expression: "inventory.inventoryName"
+                      }
+                    ],
+                    staticClass: "input",
+                    attrs: {
+                      type: "text",
+                      placeholder: "Item Name",
+                      name: "inventoryName"
+                    },
+                    domProps: { value: _vm.inventory.inventoryName },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(
+                          _vm.inventory,
+                          "inventoryName",
+                          $event.target.value
+                        )
+                      }
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: _vm.submitted && !_vm.inventory.inventoryName,
+                      expression: "submitted && !inventory.inventoryName"
+                    }
+                  ],
+                  staticClass: "invalid-feedback"
+                },
+                [_vm._v("inventory Name is required")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "field" }, [
+              _c(
+                "p",
+                { staticClass: "control has-icons-left has-icons-right" },
+                [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.inventory.quantity,
+                        expression: "inventory.quantity"
+                      }
+                    ],
+                    staticClass: "input",
+                    attrs: {
+                      type: "number",
+                      placeholder: "Quantity",
+                      name: "Quantity"
+                    },
+                    domProps: { value: _vm.inventory.quantity },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.inventory, "quantity", $event.target.value)
+                      }
+                    }
+                  })
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: _vm.submitted && !_vm.inventory.quantity,
+                      expression: "submitted && !inventory.quantity"
+                    }
+                  ],
+                  staticClass: "invalid-feedback"
+                },
+                [_vm._v("Quantity is required")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "field" }, [
+              _c("label", { staticClass: "label" }, [_vm._v("Select User")]),
+              _vm._v(" "),
+              _c("div", { staticClass: "control" }, [
+                _c("div", { staticClass: "select" }, [
+                  _c(
+                    "select",
+                    {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.inventory.userId,
+                          expression: "inventory.userId"
+                        }
+                      ],
+                      attrs: { name: "user" },
+                      on: {
+                        change: function($event) {
+                          var $$selectedVal = Array.prototype.filter
+                            .call($event.target.options, function(o) {
+                              return o.selected
+                            })
+                            .map(function(o) {
+                              var val = "_value" in o ? o._value : o.value
+                              return val
+                            })
+                          _vm.$set(
+                            _vm.inventory,
+                            "userId",
+                            $event.target.multiple
+                              ? $$selectedVal
+                              : $$selectedVal[0]
+                          )
+                        }
+                      }
+                    },
+                    _vm._l(_vm.users.items, function(user) {
+                      return _c(
+                        "option",
+                        { key: user.id, domProps: { value: user.id } },
+                        [_vm._v(_vm._s(user.firstName))]
+                      )
+                    }),
+                    0
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: _vm.submitted && !_vm.inventory.userId,
+                      expression: "submitted && !inventory.userId"
+                    }
+                  ],
+                  staticClass: "invalid-feedback"
+                },
+                [_vm._v("User is required")]
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(0)
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "router-link",
+          {
+            staticClass: "btn btn-link",
+            attrs: { to: { name: "createInventory" } }
+          },
+          [_vm._v("Cancel")]
+        )
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "field" }, [
+      _c("p", { staticClass: "control" }, [
+        _c(
+          "button",
+          { staticClass: "button is-success", attrs: { type: "submit" } },
+          [_vm._v("\n        Create\n      ")]
         )
       ])
     ])

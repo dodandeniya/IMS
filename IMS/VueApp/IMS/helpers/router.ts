@@ -4,6 +4,7 @@ import HomePage from "@/IMS/Views/HomePage.vue";
 import CreateUser from "@/IMS/Views/users/CreateUser.vue";
 import EditUser from "@/IMS/Views/users/EditUser.vue";
 import InventoryListPage from "@/IMS/Views/InventoryListPage.vue";
+import CreateInventory from "@/IMS/Views/inventory/CreateInventory.vue";
 
 const routePrefix = "inventory";
 
@@ -17,6 +18,11 @@ const routes = [
     name: "editUser",
     path: `/${routePrefix}/editUser/:id`,
     component: EditUser,
+  },
+  {
+    name: "createInventory",
+    path: `/${routePrefix}/createInventory`,
+    component: CreateInventory,
   },
   {
     name: "create",

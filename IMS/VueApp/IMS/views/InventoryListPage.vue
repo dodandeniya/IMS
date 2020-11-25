@@ -35,7 +35,6 @@ export default {
         })
     },
     created () {
-        console.log(this.account.user);
         this.getAllInventories(this.account.user.id);
     },
     methods: {

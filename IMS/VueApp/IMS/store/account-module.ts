@@ -14,7 +14,7 @@ const actions = {
       (user) => {
         commit("loginSuccess", user);
         console.log(user);
-        if (user.role === "Admin") {
+        if (user.role === "Admin" || user.role === "Manager") {
           router.push("/inventory/home");
         } else {
           router.push("/inventory/inventoryList");

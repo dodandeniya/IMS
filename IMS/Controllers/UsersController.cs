@@ -14,7 +14,7 @@ using IMS.interfaces;
 
 namespace IMS.Controllers
 {
-    [Authorize(Roles = Roles.Admin)]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
@@ -27,12 +27,14 @@ namespace IMS.Controllers
         }
 
         // GET: api/Users
+        [Authorize(Roles = Roles.AdminOrManager)]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetAllUsers()
         {
             return await userService.GetAllUsers();
         }
 
+        [Authorize(Roles = Roles.AdminOrManager)]
         // GET: api/Users/5
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
@@ -70,6 +72,7 @@ namespace IMS.Controllers
         // PUT: api/Users/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        [Authorize(Roles = Roles.Admin)]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(int id, User user)
         {
@@ -85,6 +88,7 @@ namespace IMS.Controllers
         // POST: api/Users
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        [Authorize(Roles = Roles.Admin)]
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
@@ -101,6 +105,7 @@ namespace IMS.Controllers
         }
 
         // DELETE: api/Users/5
+        [Authorize(Roles = Roles.Admin)]
         [HttpDelete("{id}")]
         public async Task<ActionResult<User>> DeleteUser(int id)
         {
